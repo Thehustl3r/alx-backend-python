@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 from typing import List
 """
-use of type script in python
+use of type script in python to manage the
+variables
 """
 
 

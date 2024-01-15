@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import math
 """
-use of type script in python
+use of type script in python for variables
 """
 
 

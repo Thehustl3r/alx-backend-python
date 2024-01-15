@@ -4,7 +4,7 @@ use of type script in python
 """
 
 
-def add(str1: str, str2: str) -> str:
+def concat(str1: str, str2: str) -> str:
     """
     Add two strings and return the string value
     """

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import math
 """
 use of type script in python for variables
 """
+import math
 
 
 def floor(n: float) -> int:

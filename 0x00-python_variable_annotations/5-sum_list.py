@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from typing import List
 """
 use of type script in python to manage the
 variables
 """
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:

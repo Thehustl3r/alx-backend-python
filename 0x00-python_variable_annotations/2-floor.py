@@ -7,6 +7,12 @@ use of type script in python for variables
 
 def floor(n: float) -> int:
     """
-    Change the float to int
+    Return the floor of the float.
+
+    Parameters:
+    - n (float): The numerator.
+
+    Returns:
+    int: The result of the floor.
     """
     return math.floor(n)

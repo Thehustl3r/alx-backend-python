@@ -7,5 +7,13 @@ variables
 
 
 def sum_list(input_list: List[float]) -> float:
-    """Calculate the summmation of the float arrary"""
+    """
+    Return the sum of the list.
+
+    Parameters:
+    - input_list (float): The numerator.
+
+    Returns:
+    float: The result of the sum.
+    """
     return sum(input_list)

@@ -2,19 +2,13 @@
 """
 3-tasks.py
 """
-import time
 import asyncio
-wait_n = __import__('1-concurrent_coroutines').wait_n
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def measure_time(n: int, max_delay: int) -> float:
-    """the function that measures the total execution time"""
-    start_time = time.time()
-    # asyncio.run(wait_n(n, max_delay))
-    await wait_n(n, max_delay)
+def task_wait_random(max_delay: int):
+    """the function that returns asyncio.task"""
 
-    end_time = time.time()
+    task = asyncio.Task(wait_random(max_delay))
 
-    total_time = end_time - start_time
-
-    return total_time / n
+    return task

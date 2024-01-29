@@ -6,6 +6,7 @@ from typing import Sequence, Any, Union, Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    """fix annotation"""
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
